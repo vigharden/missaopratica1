@@ -1,0 +1,51 @@
+/* Tipografia global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+header {
+    height: 60px;
+}
+
+main {
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+}
+
+footer {
+    height: 25px;
+    font-size: 14px;
+}
+
+/* Estilos para o menu ativo */
+.nav-link.active {
+    font-weight: bold;
+    color: #007bff !important;
+}
+
+/*Ajustes finais*/
+
+header {
+    height: 60px;
+}
+
+main {
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+}
+
+footer {
+    height: 25px;
+    font-size: 14px;
+}

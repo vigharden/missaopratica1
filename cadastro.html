@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Receitas</title>
+    <!-- Link para Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="formatos.css">
+</head>
+<body style="background-color: #f0f0f0;">
+    <header class="bg-light p-3" style="height: 60px;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Receitas</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="receitas.html">Receitas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="cadastro.html">Cadastro</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container-fluid" style="height: calc(100vh - 100px); overflow-y: auto;">
+        <h2 class="my-5">Formulário de Cadastro</h2>
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" required>
+            </div>
+            <div class="col-md-6">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="col-md-6">
+                <label for="rua" class="form-label">Rua</label>
+                <input type="text" class="form-control" id="rua" required>
+            </div>
+            <div class="col-md-2">
+                <label for="numero" class="form-label">Número</label>
+                <input type="text" class="form-control" id="numero" required>
+            </div>
+            <div class="col-md-4">
+                <label for="complemento" class="form-label">Complemento</label>
+                <input type="text" class="form-control" id="complemento">
+            </div>
+            <div class="col-md-4">
+                <label for="cidade" class="form-label">Cidade</label>
+                <input type="text" class="form-control" id="cidade" required>
+            </div>
+            <div class="col-md-4">
+                <label for="estado" class="form-label">Estado</label>
+                <input type="text" class="form-control" id="estado" required>
+            </div>
+            <div class="col-md-4">
+                <label for="cep" class="form-label">CEP</label>
+                <input type="text" class="form-control" id="cep" required>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+    </main>
+
+    <footer class="text-center bg-light py-3" style="height: 25px;">
+        <p>&copy; 2024 Receitas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

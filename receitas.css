@@ -1,0 +1,22 @@
+/* Flexbox para os painéis de receitas */
+.conteiner-fluid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;   
+}
+
+.card {
+    margin: 10px;
+    width: 200px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* Definir o modo de rolagem vertical */
+main {
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+}
